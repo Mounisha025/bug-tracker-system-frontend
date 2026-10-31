@@ -1,16 +1,116 @@
-# React + Vite
+# 🐞 Bug Tracking System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Bug Tracking System frontend developed using **React and JavaScript**. This application provides an intuitive interface for managing projects, tracking bugs, assigning tasks, and monitoring development activities.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript (JSX)
+- CSS
+- Vite
+- Axios
+- React Router
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **User Authentication** – Login and protected routes.
+- **Dashboard** – View bug statistics and recent activities.
+- **Bug Management** – Create, view, and manage bugs.
+- **My Bugs** – View assigned bugs.
+- **Project Management** – Browse projects and project details.
+- **Kanban Board** – Organize and track bug statuses.
+- **User Management** – View and manage users.
+- **Comments** – Collaborate through bug comments.
+- **Activity Timeline** – Track application activities.
+- **Profile Management** – View user profile information.
+- **Settings** – Manage application preferences.
+- **Theme Support** – Switch between interface themes.
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+bug-tracking-system/
+├── public/
+├── src/
+│   ├── api/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── layouts/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env.example
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚙️ Installation and Setup
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Mounisha025/bug-tracker-system-frontend.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd bug-tracking-system
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env` file in the project root using `.env.example` as a reference.
+
+```env
+VITE_API_BASE_URL=http://localhost:8080/api
+VITE_UPLOADS_BASE_URL=http://localhost:8080/uploads
+```
+
+Update these URLs when connecting to your deployed backend.
+
+### 5. Run the application
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal, usually `http://localhost:5173`.
+
+### 6. Create a production build
+
+```bash
+npm run build
+```
+
+## 🔗 Backend Repository
+
+[Bug Tracking System – Backend](https://github.com/Mounisha025/bug-tracker-system)
+
+## 👩‍💻 Developer
+
+**Padala Mounisha**
+
+GitHub: [@Mounisha025](https://github.com/Mounisha025)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
